@@ -1,0 +1,28 @@
+.pagination-controls{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  color: #229C8F;
+  margin-top: 11px;
+  z-index: 1;
+  position: relative;
+}
+.selected{
+  background-color:#A9BCCD;
+  color: white;
+}
+
+li{
+  margin: 4px 0px 4px 0px;
+  cursor: pointer;
+  padding: 8px 12px 8px 12px;
+  border-radius: 5px;
+}
+
+#prev-li{
+  margin-right: 3px;
+}
+
+#next-li{
+  margin-left: 3px;
+}

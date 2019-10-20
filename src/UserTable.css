@@ -1,0 +1,46 @@
+
+.UserTable{
+  margin-top: 147px;
+  width: 500px;
+}
+
+.UserTable table {
+  margin: 0;
+  width: 500px;
+  border-color: #f0ebeb;
+  border-bottom: none;
+  border-right: none;
+  border-spacing: 0px;
+}
+
+.UserTable td {
+  border-color: #f0ebeb;
+  border-left: none;
+  border-top: none;
+  border-bottom-style: solid;
+  border-right-style: solid;
+  padding: 10px 0px 10px 10px;
+  text-align: left;
+}
+
+.UserTable th {
+  border-bottom: 1px solid #f0ebeb;
+  border-top: none;
+  border-left: none;
+  padding: 10px;
+  text-align: left;
+  background :#A9BCCD;
+  color: rgb(43, 70, 145);
+}
+
+.UserTable input {
+  margin: 0px 0px 15px 4px;
+  padding: 10px;
+  border-radius: 7px;
+  border: 1px solid #229C8F;
+  font-size: 16px;
+}
+
+
+
+
