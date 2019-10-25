@@ -22,10 +22,7 @@ export const isValidPassword = (pass, validations = [], amtToPass = validations.
 }
 
 export function hasNum(pass) {
-  for (let i = 0; i < pass.length; i++){
-    if (/^\d+$/.test(pass[i])) return true;
-  }
-  return false;
+  return /\d/.test(pass)
 }
 
 export function hasMinLength(pass) {
@@ -33,10 +30,6 @@ export function hasMinLength(pass) {
 }
 
 export function hasUpperCase(pass) {
-  for (let i = 0; i < pass.length; i++){
-    if (pass[i] === pass[i].toUpperCase() 
-      && /^[A-Z]$/i.test(pass[i])) return true;
-  }
-  return false;
+  return /[A-Z]/.test(pass);
 }
 
